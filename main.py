@@ -1,8 +1,8 @@
-string=input("Введите строку:")
+string=input("Введите строку:")#ввод строки
 
-words=string.split()
-string1=''
-for word in words:
-        string1 += word[0]
+words=string.split()#инициализация переменной words
+string1=''#инициализация переменной string
+for word in words:#цикл for
+        string1 += word[0]#инициализация превых букв
 
-print("Результат:",string1)
+print("Результат:",string1)#вывод результата
